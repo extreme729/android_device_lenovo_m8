@@ -89,6 +89,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Symbols 
 PRODUCT_PACKAGES += \
     libshim_showlogo
+
+# Inherit lineage sepolicy for mediatek devices
+-include device/lineage/sepolicy/mediatek/sepolicy.mk
     
 # System properties
 -include $(LOCAL_PATH)/product_prop.mk
