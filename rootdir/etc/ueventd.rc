@@ -1,2 +1,2 @@
 # Add device block for FRP
-/dev/block/platform/bootdevice/by-name/frp    0600   system     system
+/dev/block/platform/bootdevice/by-name/lenovoraw    0600   system     system
